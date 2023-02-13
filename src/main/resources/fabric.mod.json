@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "hcwt",
+	"version": "${version}",
+	"name": "Honey Cures Withering Too Or HCWT For Short",
+	"description": "Makes honey cure withering",
+	"authors": [
+		"OffsetMonkey538"
+	],
+	"contact": {
+		"sources": "https://github.offsetmonkey538.top/HCWT"
+	},
+	"license": "MIT",
+	"icon": "assets/hcwt/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.offsetmonkey538.hcwt.HCWT"
+		],
+		"client": [
+			"top.offsetmonkey538.hcwt.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"hcwt.mixins.json",
+		{
+			"config": "hcwt.client.mixins.json",
+			"environment": "client"
+		}
+	]
+}
