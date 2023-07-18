@@ -18,7 +18,7 @@
 			"top.offsetmonkey538.hcwt.HCWT"
 		],
 		"client": [
-			"top.offsetmonkey538.hcwt.ExampleModClient"
+			"top.offsetmonkey538.hcwt.HCWTClient"
 		]
 	},
 	"mixins": [
