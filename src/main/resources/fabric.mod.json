@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "hcwt",
-	"version": "${version}",
+	"version": "${modVersion}",
 	"name": "Honey Cures Withering Too Or HCWT For Short",
 	"description": "Makes honey cure withering",
 	"authors": [
@@ -27,5 +27,8 @@
 			"config": "hcwt.client.mixins.json",
 			"environment": "client"
 		}
-	]
+	],
+	"depends": {
+		"minecraft": "${supportedMinecraftVersions}"
+	}
 }
